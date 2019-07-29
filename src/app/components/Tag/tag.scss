@@ -1,0 +1,11 @@
+#tags {
+  display: flexbox;
+  flex-direction: row;
+}
+
+.tag {
+  outline: 1px solid $tagOutlineColor;
+  background-color: $tagBackgroundColor;
+  padding: 2px;
+  margin-right: 5px;
+}

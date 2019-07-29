@@ -1,0 +1,30 @@
+header {
+  padding: 15px;
+
+  h1 {
+    font-size: 2.2em;
+    color: $primaryGray;
+  }
+
+  p {
+    font-size: 2.2em;
+    font-style: italic;
+    color: $primaryGray;
+  }
+}
+
+// Mobile
+@media only screen and (max-width: $mobileScreen) {
+}
+
+// Phablet
+@media only screen and (max-width: $smScreen) {
+}
+
+// Tablet
+@media only screen and (max-width: $mdScreen) {
+}
+
+// Desktop
+@media only screen and (min-width: $lgScreen) {
+}

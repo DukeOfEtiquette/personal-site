@@ -1,0 +1,8 @@
+@mixin cardBoxShadow {
+  box-shadow: 7px 7px #292b29;
+}
+
+@mixin autoWidth($widthPercent) {
+  margin: auto;
+  width: $widthPercent;
+}

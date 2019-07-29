@@ -1,0 +1,35 @@
+.blurb {
+  margin-top: 10px;
+}
+
+.card {
+  margin: 1.5em 1em;
+  padding: 10px;
+  background-color: $cardBackgroundColor;
+  @include cardBoxShadow;
+
+  article {
+    @include autoWidth(95%);
+
+    h3 {
+      margin-bottom: 10px;
+      font-size: 1.9em;
+    }
+  }
+}
+
+// Mobile
+@media only screen and (max-width: $mobileScreen) {
+}
+
+// Phablet
+@media only screen and (max-width: $smScreen) {
+}
+
+// Tablet
+@media only screen and (max-width: $mdScreen) {
+}
+
+// Desktop
+@media only screen and (min-width: $lgScreen) {
+}
